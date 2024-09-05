@@ -16,7 +16,17 @@
             el:"#app", 
             data:{
                 message: "hola mundo"
-            }
+            },            
+            mounted: function(){
+            console.log("mounted")
+            },
+            created: function(){
+            console.log("create")
+            },
+            beforeCreate: function(){
+            console.log("before create")
+            },
+
         });
     </script>
 </body>
