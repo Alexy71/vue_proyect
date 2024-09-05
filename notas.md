@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba</title>
-</head>
+* message: "hola" = para imprimir mensajes
+### estructura basica para Vue
 <body>
     <div id="app">
         <h1> {{message}} </h1>
@@ -18,5 +13,7 @@
             }
         });
     </script>
-</body>
-</html>
+</body> 
+
+### conceptos
+* binding = union entre las propiedades de nuestra instancia y el DOM
