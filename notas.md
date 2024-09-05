@@ -1,19 +1,19 @@
-* message: "hola" = para imprimir mensajes
+* <input type="text" v-model="message"> = sirve para poder recibir el mensaje de afuera, y podemos modificar desde la pc
 ### estructura basica para Vue
-<body>
-    <div id="app">
-        <h1> {{message}} </h1>
-    </div>
-    <script src="vue.js"> </script>
-    <script>
-        var vm = new Vue({
-            el:"#app", 
-            data:{
-                message: "hola mundo"
-            }
-        });
-    </script>
-</body> 
+<div id="app">
+    <h1> {{message}} </h1>
+</div>
+<script src="vue.js"> </script>
+<script>
+    var vm = new Vue({
+        el:"#app", 
+        data:{
+            message: "hola mundo"
+        }
+    });
+</script>
 
 ### conceptos
-* binding = union entre las propiedades de nuestra instancia y el DOM
+
+* one way binding = nos permite la sincronizacion de nuestra instancia con el dom
+* two way binding = del exterior con la propiedad y viceversa
